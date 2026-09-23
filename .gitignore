@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.env*
+!.env.example
+test-results/
+playwright-report/
+artifacts/*.webm
+artifacts/*.mp4
+artifacts/*.wav
+.local/
+artifacts/audio/
+artifacts/raw-video/
+output/playwright/
+artifacts/video-check-*.png

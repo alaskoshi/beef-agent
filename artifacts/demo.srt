@@ -1,0 +1,91 @@
+1
+00:00:00,000 --> 00:00:03,803
+Host: Where's the beef? Jules and Rowan shipped a project together. One name
+
+2
+00:00:03,803 --> 00:00:07,606
+Host: didn't make the credits. Bring your beef. Bring your corner.
+
+3
+00:00:16,000 --> 00:00:18,324
+Jules: You shipped our shared project without crediting me. You clearly think I did
+
+4
+00:00:18,324 --> 00:00:20,648
+Jules: nothing.
+
+5
+00:00:33,000 --> 00:00:35,870
+Rowan: I never said you did nothing. The demo moved to ten. I shipped before the
+
+6
+00:00:35,870 --> 00:00:38,740
+Rowan: credit slide was ready.
+
+7
+00:00:47,000 --> 00:00:49,855
+Host: That's the first exchange. Take your corner.
+
+8
+00:00:57,000 --> 00:01:00,049
+Trainer explanation: The corner is inspecting the actual excerpt and the selected fictional
+
+9
+00:01:00,049 --> 00:01:03,099
+Trainer explanation: receipts. This is a fresh model response from Bedrock. The opponent's words
+
+10
+00:01:03,099 --> 00:01:06,149
+Trainer explanation: stay pinned to the source.
+
+11
+00:01:09,000 --> 00:01:12,736
+Jules: I was treating a missing credit as proof of what you thought about me. The
+
+12
+00:01:12,736 --> 00:01:16,473
+Jules: receipt shows the changed timing. I'll ask for the correction directly.
+
+13
+00:01:23,000 --> 00:01:26,695
+Jules: I accept the demo moved. R two explains the timing, but R three still leaves
+
+14
+00:01:26,695 --> 00:01:30,391
+Jules: my name out. Can we correct the credit today?
+
+15
+00:01:46,000 --> 00:01:49,339
+Rowan: Yes. Your design work belongs in the credits. I will add it today. We still
+
+16
+00:01:49,339 --> 00:01:52,678
+Rowan: need a shared sign-off rule.
+
+17
+00:02:04,000 --> 00:02:06,776
+Host: A concession counts. Now show them you heard it. Their strongest point, in
+
+18
+00:02:06,776 --> 00:02:09,552
+Host: your words.
+
+19
+00:02:15,000 --> 00:02:18,928
+Jules: You were meeting a changed deadline, not saying my work had no value.
+
+20
+00:02:26,000 --> 00:02:29,785
+Rowan: Your grievance is missing public credit, not that I shipped quickly.
+
+21
+00:02:38,000 --> 00:02:42,598
+Host: Credit gets corrected today. The release sign-off rule is still unresolved.
+
+22
+00:02:42,598 --> 00:02:47,197
+Host: That's split beef. No winner needed. A clearer disagreement is progress.
+
+23
+00:02:54,000 --> 00:02:59,191
+Disclosure: Fictional rehearsal. Synthetic voices. Live model coaching. X unverified.

@@ -1,0 +1,91 @@
+{
+  "durationSeconds": 180,
+  "sampleRate": 24000,
+  "peakBeforeScale": 0.7191925048828125,
+  "scale": 1,
+  "syntheticVoices": [
+    "Samantha",
+    "Daniel"
+  ],
+  "music": "none",
+  "beats": [
+    [
+      0,
+      "Daniel",
+      "Host",
+      "Where's the beef? Jules and Rowan shipped a project together. One name didn't make the credits. Bring your beef. Bring your corner."
+    ],
+    [
+      16,
+      "Samantha",
+      "Jules",
+      "You shipped our shared project without crediting me. You clearly think I did nothing."
+    ],
+    [
+      33,
+      "Daniel",
+      "Rowan",
+      "I never said you did nothing. The demo moved to ten. I shipped before the credit slide was ready."
+    ],
+    [
+      47,
+      "Daniel",
+      "Host",
+      "That's the first exchange. Take your corner."
+    ],
+    [
+      57,
+      "Samantha",
+      "Trainer explanation",
+      "The corner is inspecting the actual excerpt and the selected fictional receipts. This is a fresh model response from Bedrock. The opponent's words stay pinned to the source."
+    ],
+    [
+      69,
+      "Samantha",
+      "Jules",
+      "I was treating a missing credit as proof of what you thought about me. The receipt shows the changed timing. I'll ask for the correction directly."
+    ],
+    [
+      83,
+      "Samantha",
+      "Jules",
+      "I accept the demo moved. R two explains the timing, but R three still leaves my name out. Can we correct the credit today?"
+    ],
+    [
+      106,
+      "Daniel",
+      "Rowan",
+      "Yes. Your design work belongs in the credits. I will add it today. We still need a shared sign-off rule."
+    ],
+    [
+      124,
+      "Daniel",
+      "Host",
+      "A concession counts. Now show them you heard it. Their strongest point, in your words."
+    ],
+    [
+      135,
+      "Samantha",
+      "Jules",
+      "You were meeting a changed deadline, not saying my work had no value."
+    ],
+    [
+      146,
+      "Daniel",
+      "Rowan",
+      "Your grievance is missing public credit, not that I shipped quickly."
+    ],
+    [
+      158,
+      "Daniel",
+      "Host",
+      "Credit gets corrected today. The release sign-off rule is still unresolved. That's split beef. No winner needed. A clearer disagreement is progress."
+    ],
+    [
+      174,
+      "Samantha",
+      "Disclosure",
+      "Fictional rehearsal. Synthetic voices. Live model coaching. X unverified."
+    ]
+  ]
+}

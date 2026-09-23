@@ -1,0 +1,902 @@
+:root {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  color: #e9eddf;
+  background: #171b16;
+  font-synthesis: none;
+  color-scheme: dark;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+button,
+select,
+input,
+textarea {
+  border: 0;
+  border-radius: 3px;
+}
+button {
+  background: #3b4435;
+  color: #f1f3e9;
+  padding: 9px 12px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 650;
+  white-space: nowrap;
+}
+button:hover:not(:disabled) {
+  background: #56624a;
+}
+button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid #e2edb0;
+  outline-offset: 3px;
+}
+input,
+select,
+textarea {
+  background: #10160f;
+  color: #eff2e5;
+  padding: 8px;
+  min-width: 0;
+}
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 11px;
+  color: #bdc7b2;
+}
+main {
+  max-width: 1800px;
+  margin: auto;
+  padding: 0 30px 14px;
+}
+header {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  padding: 18px 0;
+}
+.brand {
+  font-size: 28px;
+  font-weight: 900;
+  letter-spacing: -1px;
+}
+.brand span {
+  color: #b7c794;
+}
+header p {
+  font-size: 13px;
+  color: #b6bfa9;
+}
+.connection {
+  margin-left: auto;
+  font-size: 12px;
+}
+.connection span {
+  display: block;
+  color: #aab5a0;
+  font-size: 11px;
+}
+.stop {
+  background: #594238;
+  color: #ffe9d9;
+}
+.bout-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 9px 0 18px;
+}
+h1 {
+  font-family: Impact, "Arial Narrow", system-ui, sans-serif;
+  font-stretch: condensed;
+  font-size: clamp(28px, 3vw, 44px);
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  margin: 0 0 5px;
+}
+.bout-heading p {
+  margin: 0;
+  color: #bec8b4;
+  font-size: 14px;
+}
+.clock {
+  text-align: right;
+  min-width: 120px;
+}
+.clock > span {
+  display: block;
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #c1ccad;
+}
+.clock strong {
+  font:
+    36px ui-monospace,
+    monospace;
+}
+.clock small {
+  font: 12px system-ui;
+}
+.stage-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 340px;
+  gap: 24px;
+}
+.arena {
+  background: #20271d;
+  position: relative;
+}
+.phase-strip {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 18px;
+  background: #2d3627;
+  color: #bbc7ae;
+  font-size: 11px;
+  text-transform: capitalize;
+  gap: 8px;
+}
+.phase-strip span[aria-current] {
+  color: #f1facf;
+  font-weight: 800;
+}
+.ring {
+  height: 310px;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(112deg, #3b4432 0%, #1e261b 43%, #121b13 100%);
+}
+.ring:before {
+  content: "";
+  position: absolute;
+  width: 30%;
+  height: 180%;
+  background: #d2dd9e08;
+  transform: rotate(28deg);
+  left: 35%;
+  top: -40%;
+}
+.ring-floor {
+  position: absolute;
+  inset: 70% -15% -15%;
+  background: #6b745430;
+  transform: perspective(200px) rotateX(35deg);
+  border-top: 3px solid #727c5b;
+}
+.ring-rope {
+  position: absolute;
+  height: 3px;
+  left: 0;
+  right: 0;
+  background: #8b927150;
+  z-index: 1;
+  transform: rotate(-3deg);
+}
+.rope-one {
+  top: 57%;
+}
+.rope-two {
+  top: 77%;
+}
+.fighter {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 43%;
+  z-index: 2;
+}
+.fighter-a {
+  left: 1%;
+}
+.fighter-b {
+  right: 1%;
+}
+.fighter-name {
+  position: absolute;
+  left: 15px;
+  top: 17px;
+  z-index: 3;
+}
+.fighter-b .fighter-name {
+  left: auto;
+  right: 15px;
+  text-align: right;
+}
+.fighter-name span {
+  font:
+    10px ui-monospace,
+    monospace;
+  color: #b8c5a3;
+}
+.fighter-name h2 {
+  font-size: 26px;
+  margin: 2px 0;
+}
+.fighter-name p {
+  font-size: 11px;
+  margin: 0;
+  color: #c2cea9;
+}
+.mech {
+  position: absolute;
+  height: 285px;
+  width: 100%;
+  bottom: -6px;
+  left: 9%;
+  overflow: visible;
+}
+.fighter-b .mech {
+  left: -9%;
+  transform: scaleX(-1);
+}
+.mech .body {
+  transform-origin: 180px 300px;
+}
+.mech .fist-arm {
+  transform-origin: 264px 130px;
+}
+.mech .back-arm {
+  transform-origin: 89px 126px;
+}
+.mech.pose-speaking .visor {
+  animation: speak 1.4s ease-in-out infinite;
+}
+.mech.pose-corner .body {
+  transform: translateY(17px) rotate(-6deg);
+}
+.mech.pose-corner .fist-arm,
+.mech.pose-respect .fist-arm {
+  transform: rotate(30deg);
+}
+.mech.pose-brace .fist-arm {
+  transform: rotate(-25deg);
+}
+.mech.pose-strike .fist-arm {
+  animation: strike 0.7s ease-in-out;
+}
+.mech.pose-recoil .body {
+  animation: recoil 0.7s ease-in-out;
+}
+.mech.pose-respect .body {
+  transform: translateY(4px);
+}
+@keyframes speak {
+  50% {
+    fill: #fffde0;
+  }
+}
+@keyframes strike {
+  40% {
+    transform: translate(40px, -10px) rotate(-40deg);
+  }
+}
+@keyframes recoil {
+  45% {
+    transform: rotate(9deg) translateX(9px);
+  }
+}
+.versus {
+  position: absolute;
+  left: 50%;
+  top: 46%;
+  transform: translate(-50%, -50%);
+  font:
+    italic 30px Impact,
+    system-ui;
+  color: #c0cba4;
+}
+.versus span {
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 9px;
+  font: 8px system-ui;
+  white-space: nowrap;
+  letter-spacing: 1px;
+  color: #bac8a6;
+}
+.current-line {
+  min-height: 89px;
+  padding: 14px 20px;
+  background: #313c28;
+  position: relative;
+  z-index: 3;
+}
+.current-line > span {
+  font-size: 10px;
+  color: #c4d4ae;
+}
+.current-line p {
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 6px 0 0;
+  max-width: 850px;
+}
+.hype {
+  display: flex;
+  gap: 15px;
+  padding: 12px 20px;
+  font-size: 12px;
+  align-items: center;
+}
+.hype b {
+  font-size: 9px;
+  white-space: nowrap;
+  color: #c0cf9b;
+}
+.cue-provenance {
+  padding: 0 20px 12px;
+  color: #aeba9e;
+  font-size: 10px;
+}
+.corner {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.corner-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.corner-head h2 {
+  font-size: 23px;
+  margin: 0;
+}
+.corner-head select {
+  font-size: 12px;
+}
+.privacy {
+  font-size: 10px;
+  line-height: 1.4;
+  color: #b6c0aa;
+  margin: 8px 0 12px;
+}
+.trainer-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+.trainer-options select {
+  font-size: 11px;
+  width: 100%;
+  padding: 8px 4px;
+}
+.notes {
+  margin-top: 10px;
+}
+.notes input {
+  font-size: 11px;
+}
+.train {
+  background: #c0cea3;
+  color: #17200f;
+  margin-top: 10px;
+  width: 100%;
+}
+.train:hover:not(:disabled) {
+  background: #d8e4bd;
+}
+.advice {
+  margin-top: 12px;
+  flex: 1;
+}
+.advice p {
+  font-size: 12px;
+  line-height: 1.4;
+  margin: 8px 0;
+}
+.advice b {
+  display: block;
+  color: #d8e4be;
+  font-size: 10px;
+  margin-bottom: 3px;
+}
+.advice small {
+  font-size: 10px;
+  color: #b9c8ab;
+  display: block;
+}
+.advice label {
+  margin-top: 8px;
+}
+.advice textarea {
+  height: 57px;
+  resize: vertical;
+  font-size: 11px;
+}
+.mode {
+  font-size: 9px;
+  font-weight: bold;
+  color: #dce8be;
+}
+.button-row {
+  display: flex;
+  gap: 6px;
+  margin: 6px 0;
+}
+.button-row button {
+  font-size: 10px;
+  padding: 7px;
+}
+.corner-empty {
+  padding: 16px 0 0;
+}
+.corner-empty > span {
+  font-family: Impact, "Arial Narrow", sans-serif;
+  font-size: 40px;
+  line-height: 1.05;
+  color: #738063;
+}
+.corner-empty p {
+  max-width: 260px;
+  color: #bfccb0;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.operator {
+  margin-top: 18px;
+  background: #252e20;
+  padding: 14px 16px;
+}
+.transport {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.go {
+  background: #c0cea3;
+  color: #17200f;
+}
+.check {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  align-items: center;
+}
+.check input {
+  accent-color: #c0cea3;
+}
+.input-desk {
+  display: flex;
+  gap: 8px;
+  align-items: end;
+  margin-top: 12px;
+}
+.input-desk select {
+  font-size: 12px;
+}
+.input-desk button {
+  padding: 9px;
+  font-size: 11px;
+}
+.line-input {
+  flex: 1;
+}
+.line-input input {
+  font-size: 12px;
+}
+.desk-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 12px;
+}
+.choreography,
+.audio {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.choreography span {
+  font-size: 10px;
+  color: #b7c5a7;
+  margin-right: 3px;
+}
+.choreography button,
+.audio button {
+  font-size: 10px;
+  padding: 7px;
+}
+.audio label {
+  font-size: 9px;
+  width: 55px;
+}
+.audio input {
+  width: 55px;
+  padding: 0;
+  height: 15px;
+  accent-color: #c0cea3;
+}
+.receipts {
+  display: grid;
+  grid-template-columns: 110px repeat(3, 1fr);
+  gap: 15px;
+  align-items: center;
+  margin: 15px 0;
+}
+.receipts > b {
+  font-size: 9px;
+  color: #b7c5a4;
+}
+.receipts p {
+  font-size: 10px;
+  color: #aebea0;
+  line-height: 1.4;
+  margin: 0;
+}
+.receipts strong {
+  color: #e3eace;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  font-size: 9px;
+  color: #a8b69a;
+}
+footer div {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+footer button {
+  font-size: 9px;
+  padding: 6px;
+  background: #293422;
+}
+.error {
+  min-height: 14px;
+  font-size: 11px;
+  color: #e4d3ae;
+  margin: 8px 0 0;
+}
+.ending,
+.steel-summary {
+  padding: 15px;
+  background: #36432a;
+  margin-top: 12px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: end;
+}
+.ending h2 {
+  width: 100%;
+  margin: 0;
+  font-size: 23px;
+}
+.ending label {
+  flex: 1;
+  min-width: 240px;
+}
+.ending button {
+  font-size: 10px;
+}
+.steel-summary p {
+  font-size: 12px;
+  margin: 0;
+  flex: 1;
+}
+@media (min-width: 1500px) {
+  .ring {
+    height: 360px;
+  }
+  .mech {
+    height: 335px;
+  }
+  .current-line p {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1100px) {
+  main {
+    padding: 0 18px 14px;
+  }
+  .stage-layout {
+    grid-template-columns: minmax(0, 1fr) 285px;
+    gap: 16px;
+  }
+  .desk-bottom {
+    flex-wrap: wrap;
+  }
+  .fighter-name h2 {
+    font-size: 21px;
+  }
+  .mech {
+    height: 260px;
+  }
+  .ring {
+    height: 290px;
+  }
+  header {
+    gap: 14px;
+  }
+  .brand {
+    font-size: 24px;
+  }
+  .transport {
+    flex-wrap: wrap;
+  }
+  .receipts {
+    grid-template-columns: 80px repeat(3, 1fr);
+  }
+}
+@media (max-width: 760px) {
+  main {
+    padding: 0 12px 12px;
+  }
+  header {
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 12px 0;
+  }
+  header p {
+    display: none;
+  }
+  .connection {
+    margin-left: auto;
+    font-size: 10px;
+  }
+  .stop {
+    padding: 8px;
+    font-size: 10px;
+  }
+  .bout-heading {
+    gap: 10px;
+  }
+  h1 {
+    font-size: 26px;
+  }
+  .bout-heading p {
+    font-size: 12px;
+  }
+  .clock {
+    min-width: 65px;
+  }
+  .clock strong {
+    font-size: 28px;
+  }
+  .stage-layout {
+    grid-template-columns: 1fr;
+  }
+  .ring {
+    height: 270px;
+  }
+  .mech {
+    height: 245px;
+  }
+  .fighter-name {
+    left: 9px;
+    top: 12px;
+  }
+  .fighter-name span {
+    font-size: 8px;
+  }
+  .fighter-name h2 {
+    font-size: 21px;
+  }
+  .phase-strip {
+    font-size: 9px;
+    padding: 10px;
+  }
+  .current-line p {
+    font-size: 15px;
+  }
+  .corner {
+    padding: 12px 0;
+  }
+  .corner-empty {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  .corner-empty > span {
+    font-size: 26px;
+  }
+  .corner-empty p {
+    max-width: 170px;
+  }
+  .corner-empty small {
+    display: none;
+  }
+  .input-desk {
+    flex-wrap: wrap;
+  }
+  .line-input {
+    flex-basis: 70%;
+  }
+  .operator {
+    padding: 12px;
+  }
+  .transport {
+    gap: 6px;
+  }
+  .transport button {
+    font-size: 10px;
+    padding: 8px;
+  }
+  .check {
+    margin-left: 0;
+  }
+  .choreography {
+    flex-wrap: wrap;
+  }
+  .receipts {
+    grid-template-columns: 1fr;
+  }
+  .receipts p {
+    font-size: 11px;
+  }
+  footer {
+    flex-wrap: wrap;
+  }
+  .ending label {
+    min-width: 100%;
+  }
+  .steel-summary {
+    display: block;
+  }
+  .steel-summary p {
+    margin: 5px 0;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *:before,
+  *:after {
+    animation: none !important;
+    transition: none !important;
+  }
+  .mech.pose-strike .fist-arm {
+    transform: rotate(-25deg);
+  }
+  .mech.pose-recoil .body {
+    transform: rotate(5deg);
+  }
+}
+/* Fixed desktop presentation frame; detailed advice scrolls in its own corner. */
+@media (min-width: 761px) {
+  header {
+    padding: 12px 0;
+  }
+  .bout-heading {
+    padding: 6px 0 16px;
+  }
+  .stage-layout {
+    height: 440px;
+  }
+  .arena {
+    height: 440px;
+    overflow: hidden;
+  }
+  .ring {
+    height: 260px;
+  }
+  .mech {
+    height: 250px;
+  }
+  .current-line {
+    min-height: 73px;
+    padding: 10px 20px;
+  }
+  .current-line p {
+    font-size: 14px;
+  }
+  .hype {
+    padding: 10px 20px;
+  }
+  .cue-provenance {
+    padding-bottom: 9px;
+  }
+  .corner {
+    height: 440px;
+  }
+  .advice {
+    min-height: 0;
+    overflow: auto;
+    padding-right: 8px;
+  }
+  .privacy {
+    margin: 7px 0;
+  }
+  .notes {
+    margin-top: 7px;
+  }
+  .train {
+    margin-top: 7px;
+  }
+  .operator {
+    margin-top: 14px;
+    padding: 12px 16px;
+  }
+  .receipts {
+    margin: 12px 0;
+  }
+  .ending {
+    margin: 0;
+    height: 260px;
+    overflow: auto;
+    padding: 16px;
+    align-content: start;
+  }
+  .ending h2 {
+    font-size: 20px;
+  }
+  .ending label {
+    min-width: 40%;
+    flex: 1;
+  }
+  .ending input {
+    font-size: 12px;
+  }
+  .ending-ring {
+    display: none;
+  }
+  .steel-summary {
+    margin: 10px 0;
+  }
+  .corner-empty > span {
+    font-size: 36px;
+  }
+}
+@media (max-width: 760px) {
+  .ending-ring {
+    display: none;
+  }
+  .ending {
+    margin: 0;
+  }
+  .ending h2 {
+    font-size: 21px;
+  }
+}
+.finish-mechs {
+  height: 110px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.finish-mechs .mech {
+  position: static;
+  width: 120px;
+  height: 110px;
+}
+.finish-mechs .mech:last-child {
+  transform: scaleX(-1);
+}
+.finish-mechs p {
+  font-size: 12px;
+  line-height: 1.5;
+  color: #d7e2c6;
+  text-align: center;
+  margin: 0 30px;
+}

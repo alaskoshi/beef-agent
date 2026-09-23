@@ -1,0 +1,27 @@
+
+> beef-agent@0.1.0 test
+> node --import tsx --test tests/*.test.ts
+
+✔ complete bout, acknowledgments, reset and deterministic replay (6.615ms)
+✔ duplicate ids idempotent, order and stale rounds rejected (0.138333ms)
+✔ floor and phase cannot skip unheard speakers (0.144375ms)
+✔ model cannot control public state, references validated (0.292417ms)
+✔ one steel correction; no endless veto (0.308041ms)
+✔ changing summary clears acknowledgments (0.320584ms)
+✔ public projection never includes notes or coaching (1.4675ms)
+✔ responsive rules distinguish timing, credit, concession and insufficiency (0.346333ms)
+✔ injection remains data, output cannot change authority (0.195958ms)
+✔ evidence selection uses permitted sources only (0.102583ms)
+✔ unconfigured local model fails explicitly without fake fallback (0.302167ms)
+✔ stopped bout rejects further actions (0.123959ms)
+✔ recovery pause is itself durable and replay-equivalent (0.429958ms)
+✔ budget reservations survive crash-like empty slots and stop at 30 (11.401ms)
+✔ Bedrock refuses background notes before spending (0.307708ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 199.168958

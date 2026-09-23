@@ -1,0 +1,95 @@
+{
+  "retrievedUTC": "2026-09-23",
+  "source": "AWS Pricing GetProducts",
+  "region": "us-east-1",
+  "products": [
+    {
+      "product": {
+        "productFamily": "Amazon Bedrock",
+        "attributes": {
+          "regionCode": "us-east-1",
+          "inferenceType": "Input tokens",
+          "servicecode": "AmazonBedrock",
+          "feature": "On-demand Inference",
+          "usagetype": "USE1-NovaPro-input-tokens",
+          "locationType": "AWS Region",
+          "location": "US East (N. Virginia)",
+          "model": "Nova Pro",
+          "servicename": "Amazon Bedrock",
+          "operation": ""
+        },
+        "sku": "8X836UXRHN5Q5T2H"
+      },
+      "serviceCode": "AmazonBedrock",
+      "terms": {
+        "OnDemand": {
+          "8X836UXRHN5Q5T2H.JRTCKXETXF": {
+            "priceDimensions": {
+              "8X836UXRHN5Q5T2H.JRTCKXETXF.6YS6EN2CT7": {
+                "unit": "1K tokens",
+                "endRange": "Inf",
+                "description": "$ 0.0008 per 1K tokens for Nova Pro-input-tokens in us-east-1 (N. Virginia)",
+                "appliesTo": [],
+                "rateCode": "8X836UXRHN5Q5T2H.JRTCKXETXF.6YS6EN2CT7",
+                "beginRange": "0",
+                "pricePerUnit": {
+                  "USD": "0.0008000000"
+                }
+              }
+            },
+            "sku": "8X836UXRHN5Q5T2H",
+            "effectiveDate": "2026-09-01T00:00:00Z",
+            "offerTermCode": "JRTCKXETXF",
+            "termAttributes": {}
+          }
+        }
+      },
+      "version": "20260922212139",
+      "publicationDate": "2026-09-22T21:21:39Z"
+    },
+    {
+      "product": {
+        "productFamily": "Amazon Bedrock",
+        "attributes": {
+          "regionCode": "us-east-1",
+          "inferenceType": "Output tokens",
+          "servicecode": "AmazonBedrock",
+          "feature": "On-demand Inference",
+          "usagetype": "USE1-NovaPro-output-tokens",
+          "locationType": "AWS Region",
+          "location": "US East (N. Virginia)",
+          "model": "Nova Pro",
+          "servicename": "Amazon Bedrock",
+          "operation": ""
+        },
+        "sku": "ARFVY95XGU794VBG"
+      },
+      "serviceCode": "AmazonBedrock",
+      "terms": {
+        "OnDemand": {
+          "ARFVY95XGU794VBG.JRTCKXETXF": {
+            "priceDimensions": {
+              "ARFVY95XGU794VBG.JRTCKXETXF.6YS6EN2CT7": {
+                "unit": "1K tokens",
+                "endRange": "Inf",
+                "description": "$ 0.0032 per 1K tokens for Nova Pro-output-tokens in us-east-1 (N. Virginia)",
+                "appliesTo": [],
+                "rateCode": "ARFVY95XGU794VBG.JRTCKXETXF.6YS6EN2CT7",
+                "beginRange": "0",
+                "pricePerUnit": {
+                  "USD": "0.0032000000"
+                }
+              }
+            },
+            "sku": "ARFVY95XGU794VBG",
+            "effectiveDate": "2026-09-01T00:00:00Z",
+            "offerTermCode": "JRTCKXETXF",
+            "termAttributes": {}
+          }
+        }
+      },
+      "version": "20260922212139",
+      "publicationDate": "2026-09-22T21:21:39Z"
+    }
+  ]
+}

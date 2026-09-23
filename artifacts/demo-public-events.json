@@ -1,0 +1,840 @@
+[
+  {
+    "id": "fdeacb33-3469-4b50-8bd0-c2f9271e419e",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 1,
+    "timestamp": "2026-09-23T06:00:47.704Z",
+    "round": "walkout",
+    "actor": "operator",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "pause",
+      "paused": false,
+      "elapsed": 0
+    }
+  },
+  {
+    "id": "c14f46cf-21e7-46b9-945c-83545d4d347d",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 2,
+    "timestamp": "2026-09-23T06:00:52.606Z",
+    "round": "walkout",
+    "actor": "operator",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "pause",
+      "paused": false,
+      "elapsed": 4891.600000000093
+    }
+  },
+  {
+    "id": "bfc86df3-4a16-43fb-8ae1-29815af9fe80",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 3,
+    "timestamp": "2026-09-23T06:00:57.606Z",
+    "round": "walkout",
+    "actor": "operator",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "pause",
+      "paused": false,
+      "elapsed": 9890.600000000093
+    }
+  },
+  {
+    "id": "65b36cc6-1c9a-4f8f-b461-dec01e6acc31",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 4,
+    "timestamp": "2026-09-23T06:01:01.040Z",
+    "round": "walkout",
+    "actor": "b",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "floor",
+      "side": "b"
+    }
+  },
+  {
+    "id": "7ae391ec-3b5b-4843-8670-0e2fcfad0247",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 5,
+    "timestamp": "2026-09-23T06:01:02.559Z",
+    "round": "walkout",
+    "actor": "operator",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "advance"
+    }
+  },
+  {
+    "id": "29fcdab7-92a7-48e4-99f0-22871b3165f2",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 6,
+    "timestamp": "2026-09-23T06:01:02.606Z",
+    "round": "round1",
+    "actor": "operator",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "pause",
+      "paused": false,
+      "elapsed": 45.60000000009313
+    }
+  },
+  {
+    "id": "56151d22-075b-4992-bffc-4f0339594e78",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 7,
+    "timestamp": "2026-09-23T06:01:03.559Z",
+    "round": "round1",
+    "actor": "a",
+    "origin": "fixture",
+    "refs": [],
+    "payload": {
+      "type": "line",
+      "side": "a",
+      "text": "You shipped our shared project without crediting me. You clearly think I did nothing."
+    }
+  },
+  {
+    "id": "f5d775d2-9e28-46e6-ac9a-535e96e12601",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 8,
+    "timestamp": "2026-09-23T06:01:07.607Z",
+    "round": "round1",
+    "actor": "operator",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "pause",
+      "paused": false,
+      "elapsed": 5045.9000000003725
+    }
+  },
+  {
+    "id": "e41b21f6-b329-42dd-96c3-c6818021845e",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 9,
+    "timestamp": "2026-09-23T06:01:12.607Z",
+    "round": "round1",
+    "actor": "operator",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "pause",
+      "paused": false,
+      "elapsed": 10044.600000000093
+    }
+  },
+  {
+    "id": "1849fadd-822d-4627-b40e-2ff41473d65d",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 10,
+    "timestamp": "2026-09-23T06:01:17.605Z",
+    "round": "round1",
+    "actor": "operator",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "pause",
+      "paused": false,
+      "elapsed": 15042.200000000186
+    }
+  },
+  {
+    "id": "f075504d-0edd-4b22-8914-ec8f4d87a0bc",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 11,
+    "timestamp": "2026-09-23T06:01:20.540Z",
+    "round": "round1",
+    "actor": "b",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "floor",
+      "side": "b"
+    }
+  },
+  {
+    "id": "96988b68-1272-4f3c-b8cc-23e01ff0b5ef",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 12,
+    "timestamp": "2026-09-23T06:01:20.576Z",
+    "round": "round1",
+    "actor": "b",
+    "origin": "fixture",
+    "refs": [],
+    "payload": {
+      "type": "line",
+      "side": "b",
+      "text": "I never said you did nothing. The demo moved to ten. I shipped before the credit slide was ready."
+    }
+  },
+  {
+    "id": "6a8afee5-b3d5-4d58-a889-8e8cc8003148",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 13,
+    "timestamp": "2026-09-23T06:01:22.607Z",
+    "round": "round1",
+    "actor": "operator",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "pause",
+      "paused": false,
+      "elapsed": 20043.400000000373
+    }
+  },
+  {
+    "id": "54c0a747-15f7-4b45-9737-7e1cb0d78f7b",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 14,
+    "timestamp": "2026-09-23T06:01:27.606Z",
+    "round": "round1",
+    "actor": "operator",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "pause",
+      "paused": false,
+      "elapsed": 25042.200000000186
+    }
+  },
+  {
+    "id": "af17b2b9-0b32-448f-90b7-eb0e9497b81d",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 15,
+    "timestamp": "2026-09-23T06:01:32.607Z",
+    "round": "round1",
+    "actor": "operator",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "pause",
+      "paused": false,
+      "elapsed": 30041.5
+    }
+  },
+  {
+    "id": "412d0fe4-429a-42a2-aa2d-70a1f9da7718",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 16,
+    "timestamp": "2026-09-23T06:01:37.608Z",
+    "round": "round1",
+    "actor": "operator",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "pause",
+      "paused": false,
+      "elapsed": 35041.39999999991
+    }
+  },
+  {
+    "id": "8bdd65b2-da87-416c-8e63-78e3424daf33",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 17,
+    "timestamp": "2026-09-23T06:01:37.630Z",
+    "round": "round1",
+    "actor": "operator",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "advance"
+    }
+  },
+  {
+    "id": "7c1d5384-1dee-41f6-89c7-96f998bf8397",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 18,
+    "timestamp": "2026-09-23T06:01:42.607Z",
+    "round": "corners",
+    "actor": "operator",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "pause",
+      "paused": false,
+      "elapsed": 4968.5
+    }
+  },
+  {
+    "id": "ce261fb4-242d-426b-b8cb-b986a77633b1",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 19,
+    "timestamp": "2026-09-23T06:01:47.607Z",
+    "round": "corners",
+    "actor": "operator",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "pause",
+      "paused": false,
+      "elapsed": 9966.799999999814
+    }
+  },
+  {
+    "id": "2c3e9e68-4d24-4ce8-8bb6-e18fcc295b44",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 20,
+    "timestamp": "2026-09-23T06:01:52.606Z",
+    "round": "corners",
+    "actor": "operator",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "pause",
+      "paused": false,
+      "elapsed": 14965.19999999972
+    }
+  },
+  {
+    "id": "2d51027e-9851-47c6-af9d-efbc94bd5de1",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 21,
+    "timestamp": "2026-09-23T06:01:57.606Z",
+    "round": "corners",
+    "actor": "operator",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "pause",
+      "paused": false,
+      "elapsed": 19964.099999999627
+    }
+  },
+  {
+    "id": "07e8b42c-fe7f-4641-8fd7-89a28c61a323",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 22,
+    "timestamp": "2026-09-23T06:02:02.607Z",
+    "round": "corners",
+    "actor": "operator",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "pause",
+      "paused": false,
+      "elapsed": 24963.399999999907
+    }
+  },
+  {
+    "id": "2132e0dc-92ec-49b2-b73c-89d300341d0d",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 23,
+    "timestamp": "2026-09-23T06:02:07.608Z",
+    "round": "corners",
+    "actor": "operator",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "pause",
+      "paused": false,
+      "elapsed": 29964.299999999814
+    }
+  },
+  {
+    "id": "8622e639-59b0-4f36-b407-7a9700db25cf",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 24,
+    "timestamp": "2026-09-23T06:02:08.558Z",
+    "round": "corners",
+    "actor": "operator",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "advance"
+    }
+  },
+  {
+    "id": "3b310821-a7ca-4b2c-aab1-9c8864022bfe",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 25,
+    "timestamp": "2026-09-23T06:02:10.574Z",
+    "round": "round2",
+    "actor": "a",
+    "origin": "participant",
+    "refs": [],
+    "payload": {
+      "type": "line",
+      "side": "a",
+      "text": "I accept the demo moved. R2 explains the timing, but R3 still leaves my name out. Can we correct the credit today?"
+    }
+  },
+  {
+    "id": "cc0422ee-3fa6-4755-8e44-e9cb0f24f8fd",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 26,
+    "timestamp": "2026-09-23T06:02:12.606Z",
+    "round": "round2",
+    "actor": "operator",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "pause",
+      "paused": false,
+      "elapsed": 4047.5
+    }
+  },
+  {
+    "id": "5ed2e472-b75e-425e-9aac-f4b4d471f0b7",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 27,
+    "timestamp": "2026-09-23T06:02:17.606Z",
+    "round": "round2",
+    "actor": "operator",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "pause",
+      "paused": false,
+      "elapsed": 9046.700000000186
+    }
+  },
+  {
+    "id": "3b5a9f94-16b1-42ec-a18c-497ba71e348f",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 28,
+    "timestamp": "2026-09-23T06:02:22.605Z",
+    "round": "round2",
+    "actor": "operator",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "pause",
+      "paused": false,
+      "elapsed": 14045.700000000186
+    }
+  },
+  {
+    "id": "a63c5e5b-dbe3-439c-b70a-1fbf5e29484e",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 29,
+    "timestamp": "2026-09-23T06:02:26.574Z",
+    "round": "round2",
+    "actor": "a",
+    "origin": "producer",
+    "refs": [
+      "R2"
+    ],
+    "payload": {
+      "type": "cue",
+      "side": "a",
+      "cue": "receipt",
+      "refs": [
+        "R2"
+      ]
+    }
+  },
+  {
+    "id": "0f5b75e0-e7e2-4174-8280-36a96317779f",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 30,
+    "timestamp": "2026-09-23T06:02:27.607Z",
+    "round": "round2",
+    "actor": "operator",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "pause",
+      "paused": false,
+      "elapsed": 19046.399999999907
+    }
+  },
+  {
+    "id": "e2a6f771-77f0-42a7-831b-c2c2e82b9bfb",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 31,
+    "timestamp": "2026-09-23T06:02:32.606Z",
+    "round": "round2",
+    "actor": "operator",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "pause",
+      "paused": false,
+      "elapsed": 24044.999999999534
+    }
+  },
+  {
+    "id": "d8993923-4059-4974-b674-6d21e35a9a60",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 32,
+    "timestamp": "2026-09-23T06:02:33.538Z",
+    "round": "round2",
+    "actor": "b",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "floor",
+      "side": "b"
+    }
+  },
+  {
+    "id": "3e650456-43cb-4e05-bc1d-ebe9466d4d73",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 33,
+    "timestamp": "2026-09-23T06:02:33.572Z",
+    "round": "round2",
+    "actor": "b",
+    "origin": "fixture",
+    "refs": [],
+    "payload": {
+      "type": "line",
+      "side": "b",
+      "text": "Yes. Your design work belongs in the credits. I will add it today. We still need a shared sign-off rule."
+    }
+  },
+  {
+    "id": "9f8781c0-1e34-405e-aa8a-86e9475bde59",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 34,
+    "timestamp": "2026-09-23T06:02:37.606Z",
+    "round": "round2",
+    "actor": "operator",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "pause",
+      "paused": false,
+      "elapsed": 29044.499999999534
+    }
+  },
+  {
+    "id": "53613651-623f-40dc-98bf-0ef00611bd10",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 35,
+    "timestamp": "2026-09-23T06:02:42.607Z",
+    "round": "round2",
+    "actor": "operator",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "pause",
+      "paused": false,
+      "elapsed": 34045.09999999963
+    }
+  },
+  {
+    "id": "15dc0a00-4c94-4f22-9df2-8480159d9142",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 36,
+    "timestamp": "2026-09-23T06:02:46.574Z",
+    "round": "round2",
+    "actor": "b",
+    "origin": "producer",
+    "refs": [
+      "L4"
+    ],
+    "payload": {
+      "type": "cue",
+      "side": "b",
+      "cue": "concession",
+      "refs": [
+        "L4"
+      ]
+    }
+  },
+  {
+    "id": "64666fcb-a9fe-4bf0-8c83-37b135271794",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 37,
+    "timestamp": "2026-09-23T06:02:47.606Z",
+    "round": "round2",
+    "actor": "operator",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "pause",
+      "paused": false,
+      "elapsed": 39043.59999999963
+    }
+  },
+  {
+    "id": "bb0f6c38-859c-4f86-adb0-9e6fcf7b5615",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 38,
+    "timestamp": "2026-09-23T06:02:52.607Z",
+    "round": "round2",
+    "actor": "operator",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "pause",
+      "paused": false,
+      "elapsed": 44043.69999999972
+    }
+  },
+  {
+    "id": "2e9fdcd6-5a73-40a4-a497-85bd4aea570d",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 39,
+    "timestamp": "2026-09-23T06:02:53.573Z",
+    "round": "round2",
+    "actor": "operator",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "advance"
+    }
+  },
+  {
+    "id": "cc5cc28c-772d-4e7f-a7c8-4e1833f08c63",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 40,
+    "timestamp": "2026-09-23T06:02:57.607Z",
+    "round": "steel",
+    "actor": "operator",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "pause",
+      "paused": false,
+      "elapsed": 4032.7999999998137
+    }
+  },
+  {
+    "id": "fe8995f6-180b-44b2-ada2-d28b971b3637",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 41,
+    "timestamp": "2026-09-23T06:03:02.573Z",
+    "round": "steel",
+    "actor": "a",
+    "origin": "fixture",
+    "refs": [],
+    "payload": {
+      "type": "steel",
+      "side": "a",
+      "text": "You were meeting a changed deadline, not saying my work had no value."
+    }
+  },
+  {
+    "id": "4412caf9-53f9-4d7b-901e-27163cdb7797",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 42,
+    "timestamp": "2026-09-23T06:03:02.606Z",
+    "round": "steel",
+    "actor": "operator",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "pause",
+      "paused": false,
+      "elapsed": 9031.700000000186
+    }
+  },
+  {
+    "id": "19c8c816-a789-4596-adc4-563225fa70bc",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 43,
+    "timestamp": "2026-09-23T06:03:07.607Z",
+    "round": "steel",
+    "actor": "operator",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "pause",
+      "paused": false,
+      "elapsed": 14031.600000000093
+    }
+  },
+  {
+    "id": "5519ee29-5e09-4a20-9bfb-01cb0615f88f",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 44,
+    "timestamp": "2026-09-23T06:03:12.607Z",
+    "round": "steel",
+    "actor": "operator",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "pause",
+      "paused": false,
+      "elapsed": 19030.900000000373
+    }
+  },
+  {
+    "id": "a005fd82-5656-4067-a2f2-d654cfb06615",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 45,
+    "timestamp": "2026-09-23T06:03:13.537Z",
+    "round": "steel",
+    "actor": "b",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "floor",
+      "side": "b"
+    }
+  },
+  {
+    "id": "cb1f7771-cbb1-4cfd-af50-d985f24c8c51",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 46,
+    "timestamp": "2026-09-23T06:03:13.572Z",
+    "round": "steel",
+    "actor": "b",
+    "origin": "fixture",
+    "refs": [],
+    "payload": {
+      "type": "steel",
+      "side": "b",
+      "text": "Your grievance is missing public credit, not that I shipped quickly."
+    }
+  },
+  {
+    "id": "b8ac9d70-6dd3-45cc-9b90-c3bf56250958",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 47,
+    "timestamp": "2026-09-23T06:03:17.607Z",
+    "round": "steel",
+    "actor": "operator",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "pause",
+      "paused": false,
+      "elapsed": 24031.100000000093
+    }
+  },
+  {
+    "id": "0e741102-afc3-4960-a280-47518f4374be",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 48,
+    "timestamp": "2026-09-23T06:03:20.572Z",
+    "round": "steel",
+    "actor": "b",
+    "origin": "producer",
+    "refs": [
+      "L4"
+    ],
+    "payload": {
+      "type": "cue",
+      "side": "b",
+      "cue": "steelman",
+      "refs": [
+        "L4"
+      ]
+    }
+  },
+  {
+    "id": "166fa37f-726e-41ba-b28d-0b1290404c23",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 49,
+    "timestamp": "2026-09-23T06:03:22.607Z",
+    "round": "steel",
+    "actor": "operator",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "pause",
+      "paused": false,
+      "elapsed": 29030.5
+    }
+  },
+  {
+    "id": "456c5ca5-cecd-46a7-a686-9518330bbf30",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 50,
+    "timestamp": "2026-09-23T06:03:24.573Z",
+    "round": "steel",
+    "actor": "operator",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "advance"
+    }
+  },
+  {
+    "id": "437e50fa-bd75-4255-9906-304de0b0c52e",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 51,
+    "timestamp": "2026-09-23T06:03:24.605Z",
+    "round": "ending",
+    "actor": "operator",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "summary",
+      "agreement": "Credit Jules for the interaction design today.",
+      "unresolved": "How should future releases receive shared sign-off?"
+    }
+  },
+  {
+    "id": "39433289-f61d-44e0-99b8-583ca0536c24",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 52,
+    "timestamp": "2026-09-23T06:03:27.608Z",
+    "round": "ending",
+    "actor": "operator",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "pause",
+      "paused": false,
+      "elapsed": 3033.100000000093
+    }
+  },
+  {
+    "id": "3093edc7-b4d1-4468-8984-6c011d1d4cb5",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 53,
+    "timestamp": "2026-09-23T06:03:32.609Z",
+    "round": "ending",
+    "actor": "operator",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "pause",
+      "paused": false,
+      "elapsed": 8031.100000000093
+    }
+  },
+  {
+    "id": "6eafae47-a99a-4d6c-9513-143c1c39148b",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 54,
+    "timestamp": "2026-09-23T06:03:36.556Z",
+    "round": "ending",
+    "actor": "a",
+    "origin": "participant",
+    "refs": [],
+    "payload": {
+      "type": "ack",
+      "side": "a"
+    }
+  },
+  {
+    "id": "d9aa75e6-3425-47b4-97ea-880f3c317181",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 55,
+    "timestamp": "2026-09-23T06:03:36.589Z",
+    "round": "ending",
+    "actor": "b",
+    "origin": "participant",
+    "refs": [],
+    "payload": {
+      "type": "ack",
+      "side": "b"
+    }
+  },
+  {
+    "id": "9c9b2a91-5dd0-42de-9280-0a0fb27682db",
+    "matchId": "11e50f57-0137-4ee8-8052-74ebd10ea933",
+    "sequence": 56,
+    "timestamp": "2026-09-23T06:03:36.623Z",
+    "round": "ending",
+    "actor": "operator",
+    "origin": "producer",
+    "refs": [],
+    "payload": {
+      "type": "finish",
+      "outcome": "SPLIT BEEF"
+    }
+  }
+]

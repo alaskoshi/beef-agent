@@ -1,0 +1,14 @@
+# Inference scope: BEDROCK-DEMO v1
+Status: David authorized use of existing AWS Bedrock credits for fictional demo inference and local CLI sign-in assistance on September 23, 2026. Lead allocated up to $1 with a conservative local guard.
+
+Account: authenticated local AWS CLI profile `beef-demo`. Account identifiers and credentials are not part of publication artifacts.
+Destination: Amazon Bedrock Converse, us-east-1 endpoint, US Nova Pro inference profile `us.amazon.nova-pro-v1:0` (AWS may route within US regions).
+Payload: synthetic demo position, chosen objective, up to 20 synthetic lines, up to 3 selected synthetic receipts, bounded trainer system instructions and card schema. No files, recordings, transcript imports, conversation history, or background notes. Bedrock rejects nonempty background notes. No model actions are executed.
+Budget: max 30 durable attempt slots, $0.03 conservative reservation each, $0.90 total including early Micro attempts. <=20KB input and 650 output tokens; no SDK retries. Estimate uses AWS Nova Pro published $0.0008/input 1K and $0.0032/output 1K; actual billing/credit balance unverified. Abort cannot guarantee a provider stops billing an already accepted request.
+Permissions: no IAM grants, account changes, deployment or external publishing. AWS browser sign-in created temporary local CLI credentials; no keys entered in code or chat.
+Storage: private local `.local/bedrock-attempt-N.json` reservations persist across resets/restarts; do not delete them to replenish budget. Public fixtures/model results may be saved as local test artifacts. Personal data is outside this authorization.
+Timeout: AWS connect3/read12 seconds, child13 seconds, browser14 seconds.
+Source: https://aws.amazon.com/blogs/machine-learning/effective-cost-optimization-strategies-for-amazon-bedrock/ (rates dated May 21, 2025); current pricing landing page verified Sep 23 but dynamically loaded Nova prices were not extractable. Reservation is deliberately generous; inspect current account billing before expanding scope.
+
+## Current price check and conservative bound
+AWS Pricing GetProducts was queried Sep23 for us-east-1, AmazonBedrock, Nova Pro. `artifacts/nova-pricing.json` preserves the exact on-demand SKUs, effective Sep1 2026: input $0.0008 per1K tokens; output $0.0032 per1K. The whole request JSON (including system text and tool schema) is bounded at20,000 UTF-8 bytes. A conservative engineering estimate of one input token per byte plus1,000 provider-formatting tokens gives21,000 input tokens. With650 output tokens: 21,000×0.0008/1000 +650×0.0032/1000 =$0.01888 per request;30 requests =$0.5664, below the $0.90 reservation. The byte/token conversion and formatting allowance are conservative assumptions, not an AWS token-count guarantee. Nova Pro does not support CountTokens according to its current model card. Actual observed final test inputs were983 tokens, outputs93–117. No paid infrastructure is provisioned.

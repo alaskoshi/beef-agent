@@ -1,0 +1,37 @@
+{
+  "at": "2026-09-23T06:03:47.561Z",
+  "duration": 180,
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "errors": [],
+  "synthetic": true,
+  "coachingResponses": [
+    {
+      "mode": "LIVE MODEL · BEDROCK NOVA PRO",
+      "card": {
+        "opponent": "L2: I never said you did nothing. The demo moved to ten. I shipped before the credit slide was ready.",
+        "weakness": "Assuming intent without evidence.",
+        "refs": [
+          "L2",
+          "R2",
+          "R3"
+        ],
+        "reply": "I understand the demo was moved and the credit slide was still in draft, but I expected to be credited as per our agreement. Let's ensure my contribution is acknowledged in future updates.",
+        "caution": "The absence of Jules' name on the credit slide could be due to timing, not intent.",
+        "plan": "Follow up with Rowan to confirm the inclusion of my credit in the next update."
+      },
+      "selected": [
+        "R2",
+        "R3",
+        "R1"
+      ],
+      "usage": {
+        "inputTokens": 983,
+        "outputTokens": 116,
+        "totalTokens": 1099
+      }
+    }
+  ]
+}
