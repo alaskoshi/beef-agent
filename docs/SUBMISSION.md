@@ -1,16 +1,17 @@
-# Submission copy — release in progress
+# Submission receipt — accepted before the deadline
 
-Name: agentic.beef
-Repository destination: https://github.com/alaskoshi/beef-agent (source publication authorized)
+Entry: https://hackyard.tech/yards/yard-3/0281bf4d-9120-4c1d-b2e8-39b0aa32260a
+Repository: https://github.com/alaskoshi/beef-agent
+Submitted video: https://github.com/alaskoshi/beef-agent/releases/download/hackyard-yard-3/agentic-beef-captioned.mp4
 
-Writeup (under 500 characters):
+The Yard page visibly confirmed the updated entry, screenshot, writeup, repository and video with 51 seconds remaining before September 25, 2026 at 18:00 UTC. The submitted video is a silent, captioned fictional rehearsal. ElevenLabs narration did not make the deadline. Its later version is a separate post-deadline update, not the submitted artifact.
 
-agentic.beef turns online beef into a bounded audio bout. Two people state their case, take AI-coached corners, and return with a better response. Original mechs make producer-confirmed moments visible. This one-screen fictional rehearsal uses live Bedrock coaching, manual transcripts and an honest scripted fallback. No automatic judge. Squashing the beef is a legitimate finish. Extract the signal. Suppress the spiral.
+Writeup (466 characters):
+
+agentic.beef turns online beef into a bounded audio bout. Two people state their case, take AI-coached corners, and return with a better response. Original mechs make producer-confirmed moments visible. This one-screen fictional rehearsal uses live Bedrock coaching, manual transcripts and an honest rules fallback. No automatic judge. Squashing the beef is a legitimate finish. X Spaces integration is a future project goal. Extract the signal. Suppress the spiral.
 
 Model declaration: GPT-6 via Codex for development; Amazon Nova Pro on AWS Bedrock for runtime coaching. Nova Micro was evaluated and replaced. Local rules fallback is not a model.
 
-Media: local captioned rehearsal video and app screenshot under artifacts/. Public demo hosting authorized September 25. Video fallback uses synthetic local system voices; a live human performance has not been recorded.
+MIT code/artwork release, source publication, video upload and submission were authorized September 25. X Spaces integration remains deferred and unverified.
 
-Deadline: Sep25 2026 18:00 UTC / 13:00 Chicago. Owner review target16:00 UTC / 11:00 Chicago.
-
-Release authorization: source, demo video and submission approved September 25. MIT approved. X Spaces deferred. Completion awaits verified public artifacts and submission receipt.
+Voiced post-deadline update: https://github.com/alaskoshi/beef-agent/releases/tag/post-deadline-voices — separate from the accepted silent video.

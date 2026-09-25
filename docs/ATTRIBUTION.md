@@ -8,3 +8,5 @@
 - Dependencies: React/React DOM (MIT), Vite (MIT), TypeScript (Apache-2.0), Zod (MIT), tsx (MIT), Playwright (Apache-2.0), Prettier if installed (MIT). Exact versions are in package-lock.json; installed packages retain their licenses.
 - Rule and platform sources are linked in RULES.md and AUDIO_ROUTING.md.
 - Original project code and artwork: MIT, approved by owner September 25, 2026. Third-party ownership and endorsement are not implied.
+
+- Post-deadline narration: ElevenLabs Multilingual v2, generated under the owner's paid Creator plan on September 25. Host/narrator: Tyler - Energetic Arena Announcer; Jules: Sarah; Rowan: Charlie. These are licensed provider voices, not original voice recordings owned by this project; MIT does not relicense provider voices. No Roger take or celebrity voice is used in this version.

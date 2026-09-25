@@ -60,7 +60,7 @@ Full cast, dialogue and timing: [DEMO_RUN_OF_SHOW.md](DEMO_RUN_OF_SHOW.md).
 | Fallback | LOCAL RULES · REHEARSAL, explicitly selected, input-dependent but not a model |
 | Transcript | Manual entry or SCRIPTED FIXTURE buttons; no speech recognition |
 | Mechs / sound | PRODUCER-CUED, lightweight original SVG + Web Audio synthesis |
-| Captured fallback video | PRERECORDED REPLAY with synthetic local system voices and captions; not a real Space |
+| Submitted video | SILENT CAPTIONED FICTIONAL REHEARSAL; recorded Bedrock coaching; not a real Space |
 | X Spaces | Unverified; no connection or microphone control implemented |
 
 Full details: [DEMO_DISCLOSURE.md](DEMO_DISCLOSURE.md), [AUDIO_ROUTING.md](AUDIO_ROUTING.md).
@@ -82,8 +82,8 @@ Original project code and artwork are released under the [MIT license](LICENSE).
 - [SPRINT_REPORT.md](SPRINT_REPORT.md): acceptance evidence and remaining limitations.
 - [RUN.md](RUN.md): current state and next action.
 - [docs/RULES.md](docs/RULES.md): official rules, time and discrepancies.
-- [docs/SUBMISSION.md](docs/SUBMISSION.md): prepared copy; not submitted.
+- [docs/SUBMISSION.md](docs/SUBMISSION.md): confirmed submission and public video.
 - [docs/ATTRIBUTION.md](docs/ATTRIBUTION.md): original assets and dependencies.
 - `output/playwright/`: browser screenshots; `artifacts/`: local recordings, live synthetic coaching results and manifests.
 
-Nothing has been pushed, deployed, submitted, posted to X, or shared externally. Public release requires the owner’s approval of a final artifact manifest and destination.
+[Hackyard entry](https://hackyard.tech/yards/yard-3/0281bf4d-9120-4c1d-b2e8-39b0aa32260a) and [submitted captioned video](https://github.com/alaskoshi/beef-agent/releases/download/hackyard-yard-3/agentic-beef-captioned.mp4) were published before the deadline. The submitted video is silent. A separate [voiced post-deadline update](https://github.com/alaskoshi/beef-agent/releases/tag/post-deadline-voices) adds three ElevenLabs voices. It is not the competition submission. No public inference server or X Spaces connection is deployed.

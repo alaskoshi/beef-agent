@@ -1,0 +1,13 @@
+{
+  "verifiedAt": "2026-09-25T18:05:23.385772+00:00",
+  "artifact": "artifacts/agentic-beef-elevenlabs.mp4",
+  "bytes": 5779610,
+  "sha256": "3714948caa5df2f742480c189dc19e29cfccf01e76541b4449a4d6adee6d948c",
+  "durationSeconds": 180,
+  "video": "H.264 1440x1040",
+  "audio": "AAC 24000Hz",
+  "fullDecode": "passed",
+  "visualCheck": "Frame at 58 seconds checked: captions and post-deadline disclosure readable",
+  "humanContinuousListening": "not yet confirmed",
+  "status": "post-deadline update; separate from submitted silent video"
+}

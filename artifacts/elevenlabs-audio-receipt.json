@@ -1,0 +1,144 @@
+{
+  "durationSeconds": 180,
+  "sampleRate": 24000,
+  "peakBeforeScale": 0.670258,
+  "scale": 1,
+  "model": "eleven_multilingual_v2",
+  "voiceRoles": {
+    "HOST": {
+      "name": "Tyler - Energetic Arena Announcer",
+      "voiceId": "GyIXYY876myKNtA1j8NI"
+    },
+    "JULES": {
+      "name": "Sarah - Mature, Reassuring, Confident",
+      "voiceId": "EXAVITQu4vr4xnSDxMaL"
+    },
+    "ROWAN": {
+      "name": "Charlie - Deep, Confident, Energetic",
+      "voiceId": "IKne3meq5aSn9XLyUdCD"
+    }
+  },
+  "cacheDirectory": "artifacts/audio/elevenlabs",
+  "beats": [
+    {
+      "beat": 0,
+      "startSeconds": 0.0,
+      "role": "Host",
+      "voice": "HOST",
+      "rawSeconds": 7.34,
+      "renderedSeconds": 7.34,
+      "tempo": 1
+    },
+    {
+      "beat": 1,
+      "startSeconds": 16.0,
+      "role": "Jules",
+      "voice": "JULES",
+      "rawSeconds": 4.963,
+      "renderedSeconds": 4.963,
+      "tempo": 1
+    },
+    {
+      "beat": 2,
+      "startSeconds": 33.0,
+      "role": "Rowan",
+      "voice": "ROWAN",
+      "rawSeconds": 5.851,
+      "renderedSeconds": 5.851,
+      "tempo": 1
+    },
+    {
+      "beat": 3,
+      "startSeconds": 47.0,
+      "role": "Host",
+      "voice": "HOST",
+      "rawSeconds": 2.325,
+      "renderedSeconds": 2.325,
+      "tempo": 1
+    },
+    {
+      "beat": 4,
+      "startSeconds": 57.0,
+      "role": "Trainer explanation",
+      "voice": "HOST",
+      "rawSeconds": 14.028,
+      "renderedSeconds": 11.734,
+      "tempo": 1.1939
+    },
+    {
+      "beat": 5,
+      "startSeconds": 69.0,
+      "role": "Jules",
+      "voice": "JULES",
+      "rawSeconds": 7.941,
+      "renderedSeconds": 7.941,
+      "tempo": 1
+    },
+    {
+      "beat": 6,
+      "startSeconds": 83.0,
+      "role": "Jules",
+      "voice": "JULES",
+      "rawSeconds": 7.654,
+      "renderedSeconds": 7.654,
+      "tempo": 1
+    },
+    {
+      "beat": 7,
+      "startSeconds": 106.0,
+      "role": "Rowan",
+      "voice": "ROWAN",
+      "rawSeconds": 6.583,
+      "renderedSeconds": 6.583,
+      "tempo": 1
+    },
+    {
+      "beat": 8,
+      "startSeconds": 124.0,
+      "role": "Host",
+      "voice": "HOST",
+      "rawSeconds": 5.094,
+      "renderedSeconds": 5.094,
+      "tempo": 1
+    },
+    {
+      "beat": 9,
+      "startSeconds": 135.0,
+      "role": "Jules",
+      "voice": "JULES",
+      "rawSeconds": 4.493,
+      "renderedSeconds": 4.493,
+      "tempo": 1
+    },
+    {
+      "beat": 10,
+      "startSeconds": 146.0,
+      "role": "Rowan",
+      "voice": "ROWAN",
+      "rawSeconds": 3.788,
+      "renderedSeconds": 3.788,
+      "tempo": 1
+    },
+    {
+      "beat": 11,
+      "startSeconds": 158.0,
+      "role": "Host",
+      "voice": "HOST",
+      "rawSeconds": 10.527,
+      "renderedSeconds": 10.527,
+      "tempo": 1
+    },
+    {
+      "beat": 12,
+      "startSeconds": 174.0,
+      "role": "Disclosure",
+      "voice": "HOST",
+      "rawSeconds": 5.851,
+      "renderedSeconds": 5.749,
+      "tempo": 1.0176
+    }
+  ],
+  "effects": "original restrained oscillator cues from narration.py",
+  "videoCommand": "ffmpeg -i artifacts/demo-screen.webm -i artifacts/elevenlabs-narration.wav -filter_complex \"[0:v]pad=1440:1040:0:0:black,subtitles=artifacts/elevenlabs-demo.srt:force_style='Alignment=2,MarginV=18,FontSize=8,Outline=0.6,MarginL=12,MarginR=12'[captioned];[captioned]drawtext=text='POST-DEADLINE UPDATE | SYNTHETIC VOICES | RECORDED BEDROCK COACHING | X DEFERRED':x=(w-text_w)/2:y=1011:fontcolor=white:fontsize=17[outv]\" -map '[outv]' -map 1:a -shortest -c:v libx264 -preset veryfast -crf 23 -pix_fmt yuv420p -c:a aac -b:a 160k -movflags +faststart artifacts/agentic-beef-elevenlabs.mp4",
+  "publicationStatus": "Post-deadline update; not the submitted Hackyard video."
+}

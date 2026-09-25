@@ -1,11 +1,11 @@
 {
-  "baseOrCheckpointCommit": "7c0f0a4e12e0f68cd1fd7083a7a582b50e536d3b",
+  "baseOrCheckpointCommit": "edb494b3a72727165f4eeb5589defd6cc0f9e171",
   "note": "Hashes cover current files. Manifest and publication packet excluded to avoid circular hashes; intermediate audio/screen capture and private .local state excluded.",
   "artifacts": [
     {
       "path": ".gitignore",
-      "bytes": 215,
-      "sha256": "5afe55d05c0924dc949dcb300295e8d95260372962419b22e24cf94c618bc0a7"
+      "bytes": 225,
+      "sha256": "7f4162a928239a3b200c1db584406dd2708b8b7bad1f3f63e10464b2993b8cdc"
     },
     {
       "path": "AUDIO_ROUTING.md",
@@ -23,24 +23,39 @@
       "sha256": "344f771dad87a127ea01c9e53cbccd39b5c4fb6eb93a641f1ba5a5dcfa7f6ebb"
     },
     {
+      "path": "LICENSE",
+      "bytes": 1066,
+      "sha256": "34539d2fbf6559469410947d0ee7026d2e5073dd7cc02654011c9d5a5621b37f"
+    },
+    {
       "path": "README.md",
-      "bytes": 6797,
-      "sha256": "68abfcddd4d4389d102616f5adee0a52597c18949f491e4f858f46af1dd932e8"
+      "bytes": 7476,
+      "sha256": "15bd139d5a0559e6c3c2eb467878fe0280e7a0c3c4c27e9fa74ce09fe4d57d83"
     },
     {
       "path": "RUN.md",
-      "bytes": 1998,
-      "sha256": "a27578d042cf6f078670148832a7ae8ea9541beb43663d4d04b397f39c955db4"
+      "bytes": 2219,
+      "sha256": "c18bd536890dc61ba54d5362db23f6ea9116fdacc3ae97bcc1fb5df08637f17f"
     },
     {
       "path": "SPRINT_REPORT.md",
-      "bytes": 6624,
-      "sha256": "5f88b62c657115ff5db4cac6b84b9e749051cb97a4dd09faad1f6b94b8dc5508"
+      "bytes": 6702,
+      "sha256": "fd1463e6392b1510e26c961eb2fa04811862e9c3a9c39c00c7427db6b7510995"
+    },
+    {
+      "path": "artifacts/agentic-beef-captioned.mp4",
+      "bytes": 15840315,
+      "sha256": "480a840e171e892dc7e974bf872f3747147d425041d64cf454969db238b88954"
     },
     {
       "path": "artifacts/agentic-beef-demo.mp4",
       "bytes": 7250672,
       "sha256": "3fec226c84ccc8448489d1b159635d4355ab4e5ed9424c2855cafc0e1fed188c"
+    },
+    {
+      "path": "artifacts/agentic-beef-elevenlabs.mp4",
+      "bytes": 5779610,
+      "sha256": "3714948caa5df2f742480c189dc19e29cfccf01e76541b4449a4d6adee6d948c"
     },
     {
       "path": "artifacts/audio-receipt.json",
@@ -71,6 +86,21 @@
       "path": "artifacts/demo.srt",
       "bytes": 2332,
       "sha256": "0ccbab612570f79dc49c8bab32a17467ded60bff9138b6eda95f080d64ce27f9"
+    },
+    {
+      "path": "artifacts/elevenlabs-audio-receipt.json",
+      "bytes": 3710,
+      "sha256": "97f9c281ddc8bca05e4b19184c3c9ead68044bfd39999b7a12be08e276c33b7c"
+    },
+    {
+      "path": "artifacts/elevenlabs-demo.srt",
+      "bytes": 1898,
+      "sha256": "e476e6cb3523a8456a48fe2f14b69b64d8cd4caafffae7d10c063186dd4a7c4c"
+    },
+    {
+      "path": "artifacts/elevenlabs-video-verification.json",
+      "bytes": 539,
+      "sha256": "76b882f3d4b07802a2b6b51ee2e24dea93d0f48dd833c603af99db28902f63ea"
     },
     {
       "path": "artifacts/live-coach.json",
@@ -109,8 +139,8 @@
     },
     {
       "path": "docs/ATTRIBUTION.md",
-      "bytes": 1324,
-      "sha256": "9d3b50965051b35332d0374dac5e2a1c2f8a2b9b92d04c8c927e0fa384ddf99c"
+      "bytes": 1731,
+      "sha256": "6df6d268511fdf2ce8f9bba23285039b48c4bfceec28cfffadb575f59a5416eb"
     },
     {
       "path": "docs/INFERENCE_SCOPE.md",
@@ -119,13 +149,13 @@
     },
     {
       "path": "docs/LICENSE_PROPOSAL.md",
-      "bytes": 467,
-      "sha256": "f5652e35ebf4e766ee13a6e3081d55b0810b08fceaf8d50ce5fd198cd718ac94"
+      "bytes": 199,
+      "sha256": "d98942307105af62de5e4561bd5f7012aeb346557f034e77fee5e18f74f325f5"
     },
     {
       "path": "docs/REVIEW.md",
-      "bytes": 1461,
-      "sha256": "765a6f489481d3213c7c7249301f5afdee23155b3d87914c9441d72aba8dcf9f"
+      "bytes": 2468,
+      "sha256": "2a4c693be2aa977f695c265e7b77974f71fc7b709a3fcfc363b3dafec1f17198"
     },
     {
       "path": "docs/RULES.md",
@@ -134,8 +164,8 @@
     },
     {
       "path": "docs/SUBMISSION.md",
-      "bytes": 1365,
-      "sha256": "445465bc4d3192e7744167f74c9e3cf66fda1b478a5efae2ff452a6dfd50856e"
+      "bytes": 1643,
+      "sha256": "c7ef12e3d85bd2028c8aa03388d22840154e44d2cb7bf3349379f38220f8b308"
     },
     {
       "path": "docs/UI_RECHECK.md",
@@ -168,14 +198,19 @@
       "sha256": "1763e873a384e3e9959b9f19071894555306f0c5df59a598bc1a0e7e0502e7eb"
     },
     {
+      "path": "scripts/elevenlabs-narration.py",
+      "bytes": 10955,
+      "sha256": "a066153d443a7002c81ee017186064b5c2b2075c13cef50732bd9da4c28ecf97"
+    },
+    {
       "path": "scripts/inspect-ui.mjs",
       "bytes": 692,
       "sha256": "3eb645214bbab0af63f58076c8994c82e6edbffcec9ab31ead0c4dc48c6f9626"
     },
     {
       "path": "scripts/manifest.py",
-      "bytes": 1535,
-      "sha256": "c5b8facab1710170fe8d4af9c6462df28c6b76dd3bfc7af018cfc71c7a97d2bc"
+      "bytes": 1545,
+      "sha256": "2f74e5e4b7bb5483accbb577332ff713feee56f71e3366a6140cdbaead0df649"
     },
     {
       "path": "scripts/narration.py",

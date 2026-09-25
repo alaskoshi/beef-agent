@@ -1,0 +1,52 @@
+1
+00:00:00,000 --> 00:00:07,340
+Host: Where's the beef? Jules and Rowan shipped a project together. One name didn't make the credits. Bring your beef. Bring your corner.
+
+2
+00:00:16,000 --> 00:00:20,963
+Jules: You shipped our shared project without crediting me. You clearly think I did nothing.
+
+3
+00:00:33,000 --> 00:00:38,851
+Rowan: I never said you did nothing. The demo moved to ten. I shipped before the credit slide was ready.
+
+4
+00:00:47,000 --> 00:00:49,325
+Host: That's the first exchange. Take your corner.
+
+5
+00:00:57,000 --> 00:01:08,734
+Trainer explanation: The corner is inspecting the actual excerpt and the selected fictional receipts. This is a fresh model response from Bedrock. The opponent's words stay pinned to the source.
+
+6
+00:01:09,000 --> 00:01:16,941
+Jules: I was treating a missing credit as proof of what you thought about me. The receipt shows the changed timing. I'll ask for the correction directly.
+
+7
+00:01:23,000 --> 00:01:30,654
+Jules: I accept the demo moved. R two explains the timing, but R three still leaves my name out. Can we correct the credit today?
+
+8
+00:01:46,000 --> 00:01:52,583
+Rowan: Yes. Your design work belongs in the credits. I will add it today. We still need a shared sign-off rule.
+
+9
+00:02:04,000 --> 00:02:09,094
+Host: A concession counts. Now show them you heard it. Their strongest point, in your words.
+
+10
+00:02:15,000 --> 00:02:19,493
+Jules: You were meeting a changed deadline, not saying my work had no value.
+
+11
+00:02:26,000 --> 00:02:29,788
+Rowan: Your grievance is missing public credit, not that I shipped quickly.
+
+12
+00:02:38,000 --> 00:02:48,527
+Host: Credit gets corrected today. The release sign-off rule is still unresolved. That's split beef. No winner needed. A clearer disagreement is progress.
+
+13
+00:02:54,000 --> 00:02:59,749
+Disclosure: Fictional rehearsal. Synthetic voices. Live model coaching. X unverified.
+
