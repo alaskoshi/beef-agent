@@ -1,6 +1,6 @@
 # Sprint / acceptance report
 
-Status: working local vertical slice; owner review of performance and external publication remain separate. No public X rehearsal, deployment, push, PR, media upload or hackathon submission occurred.
+Status: working local vertical slice; owner review of performance and external publication remain separate. As of the September 23 checkpoint, no public X rehearsal, deployment, push, PR, media upload or hackathon submission had occurred. See RUN.md for current release status.
 
 ## What works
 One-screen walkout → two speakers → corners → improved round → steel exchange → explicit ending. Typed ordered events, turn/transition guards, two-sided reconciliation, producer-confirmed mech cues, original restrained effects, private per-side in-memory coaching, manual public excerpts, local recovery and deterministic public-state replay. A live Bedrock trainer is integrated and exercised; a rules fallback is honestly labeled.

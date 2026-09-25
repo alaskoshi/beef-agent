@@ -1,4 +1,6 @@
-# Prepared release packet — local only
+# September 23 release packet — historical preparation record
+
+September 25 update: owner authorized source/video publication and Hackyard submission, approved MIT, and deferred X Spaces. This record describes the earlier checkpoint; RUN.md tracks current execution.
 
 Tested implementation checkpoint: `7c0f0a4e12e0f68cd1fd7083a7a582b50e536d3b` on `codex/one-screen-demo`. Original public base: `e1aaee36e912d9c83fc6dad04f08336c79906e70`. The subsequent receipt commit adds this packet and the manifest only.
 

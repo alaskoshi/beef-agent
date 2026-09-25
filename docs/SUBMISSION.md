@@ -1,7 +1,7 @@
-# Prepared submission, not submitted
+# Submission copy — release in progress
 
 Name: agentic.beef
-Repository destination: https://github.com/alaskoshi/beef-agent (local implementation not pushed)
+Repository destination: https://github.com/alaskoshi/beef-agent (source publication authorized)
 
 Writeup (under 500 characters):
 
@@ -9,8 +9,8 @@ agentic.beef turns online beef into a bounded audio bout. Two people state their
 
 Model declaration: GPT-6 via Codex for development; Amazon Nova Pro on AWS Bedrock for runtime coaching. Nova Micro was evaluated and replaced. Local rules fallback is not a model.
 
-Media: local captioned rehearsal video and app screenshot under artifacts/. Public hosting/link creation not authorized. Video fallback uses synthetic local system voices; a live human performance has not been recorded.
+Media: local captioned rehearsal video and app screenshot under artifacts/. Public demo hosting authorized September 25. Video fallback uses synthetic local system voices; a live human performance has not been recorded.
 
 Deadline: Sep25 2026 18:00 UTC / 13:00 Chicago. Owner review target16:00 UTC / 11:00 Chicago.
 
-Remaining release decisions: owner review of voice performance, license, exact final manifest; then explicit approval for push/media publication/submission. These are separate actions. No approval is requested for a partial or changing artifact package.
+Release authorization: source, demo video and submission approved September 25. MIT approved. X Spaces deferred. Completion awaits verified public artifacts and submission receipt.

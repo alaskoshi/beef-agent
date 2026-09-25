@@ -7,4 +7,4 @@
 - Local rehearsal narration: macOS system voices, explicitly synthetic. No celebrity imitation requested.
 - Dependencies: React/React DOM (MIT), Vite (MIT), TypeScript (Apache-2.0), Zod (MIT), tsx (MIT), Playwright (Apache-2.0), Prettier if installed (MIT). Exact versions are in package-lock.json; installed packages retain their licenses.
 - Rule and platform sources are linked in RULES.md and AUDIO_ROUTING.md.
-- Project license is an owner decision before public release; no third-party ownership or endorsement is implied.
+- Original project code and artwork: MIT, approved by owner September 25, 2026. Third-party ownership and endorsement are not implied.

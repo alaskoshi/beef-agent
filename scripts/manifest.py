@@ -1,7 +1,7 @@
 """Hash exact source and review artifacts; omit credentials, caches and intermediates."""
 import pathlib, hashlib, json, subprocess
 root=pathlib.Path(__file__).resolve().parents[1]
-paths=['README.md','RUN.md','SPRINT_REPORT.md','DEMO_RUN_OF_SHOW.md','AUDIO_ROUTING.md','DEMO_DISCLOSURE.md','package.json','package-lock.json','tsconfig.json','vite.config.ts','playwright.config.ts','index.html','.gitignore']
+paths=['LICENSE','README.md','RUN.md','SPRINT_REPORT.md','DEMO_RUN_OF_SHOW.md','AUDIO_ROUTING.md','DEMO_DISCLOSURE.md','package.json','package-lock.json','tsconfig.json','vite.config.ts','playwright.config.ts','index.html','.gitignore']
 for folder in ['src','server','tests','scripts','docs']:
  paths.extend(str(p.relative_to(root)) for p in (root/folder).rglob('*') if p.is_file() and p.name!='PUBLICATION_PACKET.md' and '__pycache__' not in str(p))
 paths.extend(str(p.relative_to(root)) for p in (root/'artifacts').glob('*') if p.is_file() and p.suffix in ['.json','.txt','.srt','.png','.mp4'] and p.name not in ['manifest.json'])

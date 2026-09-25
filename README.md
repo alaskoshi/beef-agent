@@ -77,6 +77,8 @@ Model advice can still be wrong. Source-ID validation proves references exist, n
 
 ### Sprint evidence and submission
 
+Original project code and artwork are released under the [MIT license](LICENSE). Third-party dependencies and generated narration retain their applicable terms. X Spaces integration is explicitly deferred for the hackathon submission. The app runs locally; this repository does not deploy a public inference server.
+
 - [SPRINT_REPORT.md](SPRINT_REPORT.md): acceptance evidence and remaining limitations.
 - [RUN.md](RUN.md): current state and next action.
 - [docs/RULES.md](docs/RULES.md): official rules, time and discrepancies.

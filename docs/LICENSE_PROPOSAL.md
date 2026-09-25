@@ -1,2 +1,3 @@
-# License decision for owner review
-Proposed: MIT for the original project code and SVG/audio synthesis code. This proposal is not a license grant. The owner should select the project license before public release; dependency licenses remain their own. No copyright owner or year is inferred for a license file. Local system voice output usage should be reviewed as part of final media acceptance, or replaced by the consenting performers for the live demonstration.
+# License decision
+
+Owner approved MIT for original project code and artwork on September 25, 2026. The grant is in ../LICENSE. Third-party dependency and generated narration terms remain their own.
