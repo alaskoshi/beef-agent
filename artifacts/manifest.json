@@ -1,11 +1,11 @@
 {
-  "baseOrCheckpointCommit": "edb494b3a72727165f4eeb5589defd6cc0f9e171",
+  "baseOrCheckpointCommit": "1ec686dfb60586fb21196ee584c97c7740db2689",
   "note": "Hashes cover current files. Manifest and publication packet excluded to avoid circular hashes; intermediate audio/screen capture and private .local state excluded.",
   "artifacts": [
     {
       "path": ".gitignore",
-      "bytes": 225,
-      "sha256": "7f4162a928239a3b200c1db584406dd2708b8b7bad1f3f63e10464b2993b8cdc"
+      "bytes": 239,
+      "sha256": "647b14840e7187890fa23963275c654e148053263bdea8b46407000d667b1b2b"
     },
     {
       "path": "AUDIO_ROUTING.md",
@@ -34,8 +34,8 @@
     },
     {
       "path": "RUN.md",
-      "bytes": 2219,
-      "sha256": "c18bd536890dc61ba54d5362db23f6ea9116fdacc3ae97bcc1fb5df08637f17f"
+      "bytes": 2231,
+      "sha256": "d799b82e59b06aed4cdb3b6cce93047d0cad520f91cb3069a95e4006516a9b7c"
     },
     {
       "path": "SPRINT_REPORT.md",
@@ -116,6 +116,11 @@
       "path": "artifacts/nova-pricing.json",
       "bytes": 3109,
       "sha256": "1471225bea9b79abff9b7d7b6379c029ec8efaa473daa5cb60a1bf5addc6eab6"
+    },
+    {
+      "path": "artifacts/publication-receipt.json",
+      "bytes": 779,
+      "sha256": "43abb22387f96b61e4b7d9665cd82d621361d5d05ec1cfea0fcfb76d081afc4c"
     },
     {
       "path": "artifacts/ui-results.json",

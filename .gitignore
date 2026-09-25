@@ -13,3 +13,5 @@ artifacts/audio/
 artifacts/raw-video/
 output/playwright/
 artifacts/video-check-*.png
+
+__pycache__/
